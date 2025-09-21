@@ -57,7 +57,7 @@
 </head>
 <body>
   <div class="card">
-    <img src="foto.jpg" alt="Foto de Perfil">
+    <img src="Foto 3x4jpg" alt="Foto de Perfil">
     <h1>Caio M. Dimas</h1>
     <p>💻 Estudante de ADS | FMPSC 🚀</p>
     <a href="https://github.com" target="_blank">🐱 GitHub</a>
@@ -66,4 +66,5 @@
   </div>
 </body>
 </html>
+
 
