@@ -1,1 +1,69 @@
-# Exerc-cio--Programa-o-WEB-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Perfil</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      text-align: center;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .card h1 {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #333;
+    }
+    .card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .card a {
+      display: block;
+      margin: 10px 0;
+      padding: 12px;
+      background-color: #4a90e2;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .card a:hover {
+      background-color: #357abd;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="foto.jpg" alt="Foto de Perfil">
+    <h1>Caio M. Dimas</h1>
+    <p>💻 Estudante de ADS | FMPSC 🚀</p>
+    <a href="https://github.com" target="_blank">🐱 GitHub</a>
+    <a href="https://linkedin.com" target="_blank">💼 LinkedIn</a>
+    <a href="https://meusite.com" target="_blank">🌐 Meu Site</a>
+  </div>
+</body>
+</html>
+
